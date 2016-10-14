@@ -1,0 +1,15 @@
+@value primary from "constants/colors.css";
+
+.root {
+  background-color: primary;
+}
+
+.list {
+  margin: 0;
+  list-style: none;
+}
+
+.list > li {
+  position: relative;
+  float: left;
+}
